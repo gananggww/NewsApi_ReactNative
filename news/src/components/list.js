@@ -75,7 +75,7 @@ class List extends Component<Props> {
 
 const mapStateToProps = (state) => {
   return {
-    newsList_state: state.newsList
+    newsList_state: searchTitle(state)
   }
 }
 
